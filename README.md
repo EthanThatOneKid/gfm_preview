@@ -30,6 +30,10 @@ deno lint
 deno check main.ts
 ```
 
+## References
+
+- Inspired by [htmlpreview.github.io](https://htmlpreview.github.io/)
+
 ---
 
 Developed with 💖 by [**@EthanThatOneKid**](https://etok.codes/)
