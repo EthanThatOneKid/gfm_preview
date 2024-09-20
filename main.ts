@@ -78,7 +78,7 @@ export const router = route(routes, defaultHandler);
 /** toRaw converts a GitHub blob URL to a "raw" URL. */
 export function toRaw(url: string) {
   return url.replace(
-    /https\:\/\/github\.com\/([a-zA-Z0-9._-]+)\/([a-zA-Z0-9._-]+)\/blob\//,
+    /^https\:\/\/github\.com\/([a-zA-Z0-9._-]+)\/([a-zA-Z0-9._-]+)\/blob\//,
     "https://raw.githubusercontent.com/$1/$2/",
   );
 }
